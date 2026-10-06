@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>菁仕·格物研习社 · A-Level 物理（CIE 9702）</title>
+<style>
+/* React 的挂载点不能占一层盒子：body 直接就是撑满视口的 flex / grid 容器，
+   中间多一个 <div id="root"> 会掐断 height:100% 的参照链，版面会变成按内容
+   无限长高。display:contents 让它不生成盒子，保持原有的父子关系。 */
+#root{display:contents}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
